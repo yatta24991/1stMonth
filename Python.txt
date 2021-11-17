@@ -1,0 +1,95 @@
+Prefácio
+Transformações em uma Jornada
+A transformação do livro Python for Everybody em Python para Todos é o
+resultado árduo de um projeto do capítulo sobre Robótica e Automação do IEEEUFCG (RAS IEEE - UFCG), localizado em Campina Grande - Paraíba - Brasil.
+Secretário da RAS no ano de 2018 e graduando em Engenharia Elétrica pela UFCG,
+Arthur Carneiro foi o pioneiro a tornar este sonho realidade. Em seus estudos e
+pesquisas sobre a área, descobriu que Charles Severance, autor do Python for
+Everybody, é um grande encorajador de qualquer estudante, cientista ou profissional
+que tope o desafio de traduzir sua obra para outro idioma.
+Arthur aceitou a missão e recrutou o seu time. Em agosto de 2018, 7 pessoas foram
+convocadas para cumprir a nobre tarefa de tornar o trabalho de Severance acessível
+a milhares de leitores da Língua Portuguesa. Yuri Loia, aluno de mestrado, com
+conhecimento prévio em Python e fluência em inglês, foi nomeado como gerente
+do projeto. Sua equipe era composta por 6 graduandos do curso de Engenharia
+Elétrica: Allyson Hyago, Andhré Carvalho, João Pedro Melquiades, Maysa Freire,
+Natã Macedo e Vinicius França.
+O grupo trabalhou incansavelmente na tradução do livro até março de 2019, quando
+receberam mais apoio intelectual para cumprir a meta. Mais 8 apaixonados por
+Python se juntaram aos demais para seguir com o trabalho: Caio Porto, Débora
+Nunes, Giovanna Oliveira, Pyettra Feitosa, Vinícius Formiga, Victor Marinho e
+Vitor Araujo. Com essa força extra, em janeiro de 2020 surge a primeira versão
+do Python para Todos, que, posteriormente, passou por novas melhorias.
+Batizamos a obra tal qual o seu nome em Inglês, pois realmente qualquer um pode
+começar a sua jornada em Python a partir da leitura deste livro. Sua leitura coloquial é proposital e foi traduzida da melhor forma possível para que o entendimento
+seja abrangente a todos que o tiverem em mãos.
+Prepare-se! Sua jornada com Python está prestes a começar!
+Remisturando um Livro Aberto
+É bem comum para os acadêmicos serem instigados com frases como “publique ou
+pereça” quando se trata de produzir novas ideias, onde se perpetua uma cultura
+de começar tudo do zero para que se obtenha uma criação genuína. Este livro é
+um experimento em não começar da etapa inicial, ao invés disso será “misturado”
+o livro Pense em Python: Pense como um Cientista da Computação escrito por
+Allen B.Downey, Jeff Elkner, e outros.
+Por volta de dezembro de 2009, eu estava me preparando para lecionar SI502 -
+Networked Programming na University of Michigan pelo quinto semestre seguido,
+e decidi que estava na hora de escrever um livro de Python focado na exploração
+de dados ao invés de se limitar ao estudo de algorítimos e abstrações. Meu objetivo naquela turma era para ensinar habilidades vitais utilizando o estudo de
+dados, para que meus alunos pudessem levar para o resto da vida estes conhecimentos em Python. Poucos destes alunos tinham planos de se tornar cientistas da
+iv
+computação. Como alternativa, eles tinham planos de se tornar economistas, advogados, bibliotecários, biólogos, etc., mas que mas que queriam usar habilmente
+a tecnologia e programação nas suas áreas.
+Dentro deste contexto, parecia que não havia um livro de Python orientado à
+análise de dados que se adequasse perfeitamente ao meu curso, e então decidi escrever tal livro. Felizmente, em um encontro na faculdade três semanas antes de
+começar as férias e consequentemente o início deste projeto, o Professor Dr. Atul
+Prakash me mostrou o livro Think Python que ele havia usado para lecionar a disciplina naquele semestre. É um livro bem escrito voltado para ciência da computação
+e focado em explicações breves, diretas e de fácil compreensão.
+A estrutura geral do livro foi modificada para que o leitor possa começar a trabalhar
+com análise de dados o mais rápido possível, além de ter uma série de exemplos e
+exercícios desde o começo.
+Os capítulos 2–10 são parecidos com os do Think Python, mas com grandes mudanças. Exercícios com orientação aos números foram substituídos com outros
+exercícios orientados à análise de dados. Os tópicos são apresentados em uma
+sequência necessária para evoluir a construção de respostas cada vez mais sofisticadas. Alguns tópicos como try e except foram colocados mais a frente no capítulo
+de condicionalidade. Funções são levemente abordadas no início, até o momento
+em que seja necessário trabalhar com programas de maior nível de complexidade,
+ao invés de ser uma abstração inicial. Quase todas as funções que necessitam de
+definição pelo usuário foram removidas dos códigos de exemplos e exercícios que
+não sejam do capítulo 4. A palavra “recursividade”1 não está presente neste livro
+de maneira alguma.
+Nos capítulos 1 e 11–16, todo o material apresentado é inédito, com foco em aplicações no mundo real e exemplos simples do uso de Python para a análise de dados,
+incluindo expressões comuns para pesquisa e análise, automatizando tarefas do seu
+computador, programação orientada a objetos, recuperando dados por meio da internet, buscando-os em páginas da web, utilizando serviços online, analise de dados
+XML e JSON, criando e utilizando uma base de dados de Linguagem de Consulta
+Estruturada (Strutured Query Language - SQL) e visualizando de dados.
+O objetivo final destas mudanças é estabelecer uma modificação do foco em ciência da computação para um voltado para informática, incluindo em uma turma
+inicial de tecnologia apenas tópicos que possam ser úteis mesmo que os alunos não
+pretendam se tornar programadores profissionais.
+Para aqueles que acharem este livro interessante e tiverem a motivação de explorar
+além dos limites dele, sugiro que deem uma olhada no livro Think Python do Allen
+B. Downey. Apesar disso, existem muitas interseções entre os dois livro, e para
+aqueles que desejam obter habilidades em áreas mais técnicas de programação e
+construção de algoritmos podem ter acesso a esta informação no livro Think Python.
+Dado que os livros possuem uma semelhança no estilo de escrita, a transição entre
+eles deverá ser fácil e rápida, com o mínimo de esforço.
+Como proprietário dos direitos autorais do Think Python, Allen me permitiu modificar a licença do material do livro dele para o material herdado neste livro, da
+licença GNU de Documen-tação Livre para a mais recente licença Creative Commons — licença compartilhável semelhante . Isso acarreta em uma mudança geral
+1Com exceção, é claro, desta linha.
+v
+na licença de documentação aberta, trocando de uma GFDL para uma CC-BYSA (ex., Wikipedia). Utilizar a licença CC-BY-SA mantém a forte tradição de
+direito de cópia (copyleft) ao mesmo tempo em que o processo de novos autores
+reutilizarem este material como eles acharem melhor se torna mais direto.
+Tenho o sentimento de que este livro servirá como um exemplo do porquê materiais com uma compartilhação mais aberta são tão importantes para o futuro
+da educação, e também gostaria de agradecer ao Allen B. Downey e a gráfica da
+universidade de Cambridge pela sua decisão voltada para o futuro de tornar este
+livro disponível sob direitos autorais abertos. Espero que estejam satisfeitos com o
+resultado dos meus esforços e que você leitor esteja satisfeito com nossos esforços
+coletivos.
+Gostaria de agradecer a Allen B. Downey e Lauren Cowles pela ajuda, paciência
+e orientação em lidar com e resolvendo ativamente problemas relacionados aos
+direitos autorais deste livro.
+Charles Severance
+www.dr-chuck.com
+Ann Arbor, MI, USA
+9 de Setembro 2013
+Charles Severance é um professor associado na University of Michigan School of
+Information.
